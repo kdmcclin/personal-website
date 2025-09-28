@@ -14,23 +14,44 @@ export default function SystemArchitecture() {
 					{[
 						{
 							title: 'YAML Pipeline Migration',
-							description: 'Led the design and implementation of AZDO YAML pipelines to transition multislice deployments off of classic pipelines',
+							description: 'Led the migration of 30+ Azure DevOps pipelines from classic to YAML, modernizing CI/CD workflows and laying the foundation for slice-by-slice deployments',
 							details: [
-								'Proactively reverse-engineered and documented classic slice-by-slice Kubernetes deployment pipelines to establish a strong foundation for modernization efforts',
-								'Designed and implemented modern Azure DevOps YAML pipelines to replace the classic pipelines, introducing a modular, maintainable framework for slice-by-slice deployments',
-								'Streamlined deployment workflows by reducing complexity, improving reliability, and enabling easier onboarding and future enhancements',
+								'Proactively reverse-engineered and documented legacy slice-by-slice Kubernetes deployment pipelines to guide modernization',
+								'Designed and implemented modular YAML templates to standardize deployments across services',
+								'Enabled developer self-service by mentoring engineers to create and maintain their own pipelines',
 							],
 							tech: ['Azure DevOps', 'YAML', 'Kubernetes', 'Helm', 'CI/CD', 'Deployment Automation'],
 						},
-						{
-							title: 'Cilium Config Failures',
-							description: 'Led identification, mitigation, and observability improvements for Cilium pod failures in Kubernetes clusters post-Karpenter adoption',
+            {
+							title: 'Slice by Slice Deployment Pipeline',
+							description: 'Designed and implemented a new pipeline strategy for slice-by-slice Kubernetes deployments, from prototype to stakeholder feedback and multi-environment testing',
 							details: [
-								'Proactively identified stability issues with Cilium pods after the migration to Karpenter and raised awareness with the team.',
-								'Developed an automated pipeline on a scheduled trigger to apply a temporary remediation by recycling Cilium pods on nodes where containers were stuck.',
-								'Created a monitoring dashboard to track metrics on how frequently these events occurred and in which clusters, enabling better visibility and long-term remediation planning.',
+								'Built the first working tmeplate and validated it in lower environments',
+                'Gathered and incorporated feedback from developers and stakeholders to refine design',
+                'Documented rollout requirements for adoption beyond the test-case application'
 							],
-							tech: ['Kubernetes', 'Datadog', 'Cilium', 'Karpenter', 'Azure DevOps'],
+							tech: ['Azure DevOps', 'YAML', 'Kubernetes', 'Deployment Strategy', 'CI/CD'],
+						},
+            {
+							title: 'Toil Reduction & Automation',
+							description: 'Proactively identified and automated repetitive operational tasks to reduce team burden, cut down on manual effort, and improve reliability across clusters and pipelines',
+							details: [
+                'Created scripts to manage complex PagerDuty overrides spanning multiple clusters',
+                'Automated auditing and cleanup of unused pipelines, reducing clutter and developer confusion',
+                'Built checks for cluster health issues (e.g., missing podAntiAffinities, stuck pods) and automated remediation for known problems',
+                'Developed tooling to scale down deprecated models and services, saving resources and reducing noise'
+							],
+							tech: ['Automation', 'Kubernetes', 'Azure DevOps', 'PagerDuty', 'Operational Efficiency'],
+            },
+						{
+							title: 'Virtual Service Rollout',
+							description: 'Drove end-to-end delivery of a critical virtual service change, coordinating across Dev, QA, and DevOps teams to ensure a safe rollout and rollback strategy',
+							details: [
+								'Planned and executed testing through all pre-prod environments prior to production rollout',
+                'Scripted automation for manual rollout and rollback to reduce operational risk',
+                'Coordinated timelines and communication across multiple stakeholder groups'
+							],
+							tech: ['Kubernetes', 'Networking', 'Rollout Strategy', 'Stakeholder Management', 'Reliability'],
 						},
 					].map((project, index) => (
 						<motion.div
