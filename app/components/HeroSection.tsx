@@ -31,7 +31,9 @@ export default function HeroSection() {
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Kubernetes</span>
 							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Systems Thinking</span>
               <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Leadership and Mentoring</span>
-						</div>
+              <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">CI/CD Modernization</span>
+              <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Observability & Reliability</span>
+            </div>
 					</div>
 				</motion.div>
 			</div>
