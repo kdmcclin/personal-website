@@ -25,7 +25,7 @@ export default function TechnicalMetrics() {
 								<ul className="mt-2 space-y-2 text-gray-400">
 									<li>• Mentored 3 less senior engineers</li>
 									<li>• Created wiki tagging system for the entire DevOps organization</li>
-									<li>• Led 3 major system migrations</li>
+									<li>• Drove CastAI -> Karpenter and Flatcar migrations across multiple clusters</li>
 								</ul>
 							</motion.div>
 							<motion.div
@@ -34,11 +34,11 @@ export default function TechnicalMetrics() {
 								viewport={{ once: true }}
 								className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
 							>
-								<h4 className="text-lg font-semibold text-gray-300">Code Quality</h4>
+								<h4 className="text-lg font-semibold text-gray-300">Technical Leadership</h4>
 								<ul className="mt-2 space-y-2 text-gray-400">
-									<li>• Led adoption of TypeScript across backend</li>
-									<li>• Established coding standards</li>
-									<li>• Reduced technical debt by 40%</li>
+									<li>• Designed and delivered slice-based build and deploy pipelines</li>
+									<li>• Drove Thanos adoption to stabilize Prometheus metrics</li>
+									<li>• Led cross-functional rollout of Virtual Service change for testing improvements</li>
 								</ul>
 							</motion.div>
 						</div>
@@ -57,8 +57,8 @@ export default function TechnicalMetrics() {
 								<h4 className="text-lg font-semibold text-gray-300">Cloud Infrastructure</h4>
 								<ul className="mt-2 space-y-2 text-gray-400">
 									<li>• Achieved a 95% on CKA (2024)</li>
-									<li>• Zero-downtime deployments</li>
-									<li>• Implemented Karpenter on several clusters for cost savings vs CastAI</li>
+									<li>• Co-led EKS and on-prem kubernetes upgrades with zero downtime across clusters</li>
+									<li>• Ran targeted patch efforts to reduce cost and operational noise</li>
 								</ul>
 							</motion.div>
 							<motion.div
