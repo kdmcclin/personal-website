@@ -25,7 +25,7 @@ export default function TechnicalMetrics() {
 								<ul className="mt-2 space-y-2 text-gray-400">
 									<li>• Mentored 3 less senior engineers</li>
 									<li>• Created wiki tagging system for the entire DevOps organization</li>
-									<li>• Drove CastAI -> Karpenter and Flatcar migrations across multiple clusters</li>
+									<li>• Drove CastAI to Karpenter and Flatcar migrations across multiple clusters</li>
 								</ul>
 							</motion.div>
 							<motion.div
